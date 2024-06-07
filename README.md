@@ -1,8 +1,11 @@
 # sifreleme
-
+```
 #define _CRT_SECURE_NO_WARNINGS // Uyarıyı devre dışı bırakır
+
 #include <stdio.h>
+
 #include <stdlib.h>
+
 #include <locale.h>
 
 
@@ -153,3 +156,4 @@ int main() {
         }
     }
 }
+```
