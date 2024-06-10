@@ -1,16 +1,16 @@
 # sifreleme
 
 PROGRAM DETAYI:
-1	A	11	I	21	Q
-2	B	12	İ	22	R
-3	C	13	J	23	S
-4	Ç	14	K	24	T
-5	D	15	L	25	U
-6	E	16	M	26	V
-7	F	17	N	27	W
-8	G	18	O	28	X
-9	Ğ	19	Ö	29	Y
-10	H	20	P	30	Z
+|  1  |  A  | 11  |  I  | 21  |  Q  |
+|  2  |  B  | 12  |  İ  | 22  |  R  |
+|  3  |  C  | 13  |  J  | 23  |  S  |
+|  4  |  Ç  | 14  |  K  | 24  |  T  |
+|  5  |  D  | 15  |  L  | 25  |  U  |
+|  6  |  E  | 16  |  M  | 26  |  V  |
+|  7  |  F  | 17  |  N  | 27  |  W  |
+|  8  |  G  | 18  |  O  | 28  |  X  |
+|  9  |  Ğ  | 19  |  Ö  | 29  |  Y  |
+| 10  |  H  | 20  |  P  | 30  |  Z  |
 
 Şifreleme işlemi tablodaki harfin sayısal değerinin girilen sayı kadar artırılması ile ulaşılan sayının karşılık geldiği harfin önceki harf ile değiştirilmesi şeklinde yapılmaktadır. 
 A harfinin sayısal değeri 1’dir. Eğer A harfini 4 ile şifrelersek 1+4=5 olduğundan tabloda 5’e karşılık gelen D harfi, A harfinin 4 ile şifrelenmesi sonucu oluşan şifrelenmiş harftir.
