@@ -1,4 +1,54 @@
 # sifreleme
+
+PROGRAM DETAYI:
+1	A	11	I	21	Q
+2	B	12	İ	22	R
+3	C	13	J	23	S
+4	Ç	14	K	24	T
+5	D	15	L	25	U
+6	E	16	M	26	V
+7	F	17	N	27	W
+8	G	18	O	28	X
+9	Ğ	19	Ö	29	Y
+10	H	20	P	30	Z
+
+Şifreleme işlemi tablodaki harfin sayısal değerinin girilen sayı kadar artırılması ile ulaşılan sayının karşılık geldiği harfin önceki harf ile değiştirilmesi şeklinde yapılmaktadır. 
+A harfinin sayısal değeri 1’dir. Eğer A harfini 4 ile şifrelersek 1+4=5 olduğundan tabloda 5’e karşılık gelen D harfi, A harfinin 4 ile şifrelenmesi sonucu oluşan şifrelenmiş harftir.
+A harfinin sayısal değeri 1’dir. Eğer A harfini 32 ile şifrelersek 32+1=33 olduğundan ve tablo şifreleme yaparken son sayıdan sonra başa döndüğünden tabloda 3’e karşılık gelen C harfi, A harfinin 32 ile şifrelenmesi sonucu oluşan şifrelenmiş harftir. 
+
+Şifre çözme işlemi tablodaki harfin sayısal değerinin girilen sayı kadar azaltılması ile ulaşılan sayının karşılık geldiği harfin önceki harf ile değiştirilmesi şeklinde yapılmaktadır.
+E harfinin sayısal değeri 6’dır. Eğer E harfini 3 ile şifre çözme yaparsak 6-3=3 olduğundan tabloda 3’e karşılık gelen C harfi, E harfinin 3 ile şifresinin çözülmesi sonucu oluşan çözülmüş harftir.
+E harfinin sayısal değeri 6’dır. Eğer E harfini 10 ile şifre çözme yaparsak 6-10=-4 olduğundan ve tablo şifre çözme yaparken 1 den geriye giderken 30 a geçtiğinden tabloda 30-4’e karşılık gelen 26 yani V harfi, E harfinin 10 ile şifresinin çözülmesi sonucu oluşan çözülmüş harftir.
+
+Program akışı
+1) Kullanıcıya şifrelememi yapacağı, şifrelenmiş metin mi çözeceği sorulacaktır.
+2) Kullanıcıdan bir metin yazması istenecektir. (Şifrelenecek veya şifresi çözülecek metin)
+3) Kullanıcıdan bir sayı yazması istenecektir. (Öteleme veya geri öteleme miktarı)
+4) Ekranda ilk birinci adımdaki seçime göre şifrelenmiş metin veya şifresi çözülmüş metin gösterilecektir.
+
+   Örnek Akış 1:
+Bilgisayar:
+Şifreleme yapacaksanız 1, şifre çözecekseniz 2 giriniz.
+
+Kullanıcı:
+1
+
+Bilgisayar:
+Şifrelenecek metin girin.
+
+Kullanıcı:
+FURKAN
+
+Bilgisayar:
+Şifreleme sayısını girin.
+
+Kullanıcı:
+2
+
+Bilgisayar:
+ĞWTMCÖ
+
+
 ```
 #define _CRT_SECURE_NO_WARNINGS // Uyarıyı devre dışı bırakır
 
